@@ -309,18 +309,6 @@ ggplot(subset(dml,
 ```
 
 
-
-```{r 6.5.1b Quick Check on Day to Night Ramp Verification}
-
-ggplot(subset(dml[dml$treatment == "allchange", ], 
-             period %in% ("D2Nramp")), 
-       aes(x=dateTime, y=aTemperature)) + 
-  geom_point(aes(colour=moats, point=)) +
-  ggtitle("Aquarium Temperatures, All Change, During Ramp Period")
-
-```
-
-
 #### 6.6 Removing the Acclimation Period 
 The acclimation and the time after animals were removed from the system was designated other
 
