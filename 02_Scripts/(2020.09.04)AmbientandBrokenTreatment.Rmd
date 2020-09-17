@@ -83,16 +83,12 @@ Krill Treatment determinations were made approximately on 19SEP19 and confirmed 
 
 
 ![Graphic 3: Acclimation Perod Survival Across all MOATS](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/AllMOATsSurvivalfollowingAccliminationPeriod copy.png)
-
-
-
-
-
+#### B.1a Inital Treatment Determinations
 Determinations on 19SEP19 
 
-“All Change” Conditions Treatment: 02, 05, 08, 13
-“High Temperature” Conditions Treatment: 01, 04, 06, 11
-“Current” Conditions Treatment: 03, 07, 10, 12
+“All Change” Conditions Treatment: M02, M05, M08, M13
+“High Temperature” Conditions Treatment: M01, M04, M06, M11
+“Current” Conditions Treatment: M03, M07, M10, M12
 
 
 ![alt text](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic2_MOATS_systemdiagram.png)
