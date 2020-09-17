@@ -241,8 +241,7 @@ Other Time
 ```{r 6.5 Day / Night Assignments,  ECHO= FALSE, message=FALSE, warning=FALSE}
 ## 6.5 Day / Night Assignments 
 # Using the "case_when" function in the tidyverse in the place of a loop
- 
-dml <- dml %>% mutate(period=case_when(
+  dml <- dml %>% mutate (period=case_when(
   (ObservationDate >= "2019-09-23") 
   & (ObservationDate <="2019-10-05") 
   & (ObservationTime >= "12:00:00") 
