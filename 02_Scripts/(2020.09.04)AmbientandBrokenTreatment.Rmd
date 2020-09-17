@@ -31,6 +31,9 @@ library(gridExtra)
 # Table of Contents
 ## Outline Current 2020.09.04
 
+# A. Introduction to the 2019 Summer Krill Experiement
+# B. Explanation of MOATs and Treatment Determinination
+# C. Explanation of Importing Data from MOATs
 # 1. Setting the Working Directory
 # 2. Calling & Reading in " dml "
 # 3. Reformatting variables/vectors (Factors)
@@ -39,7 +42,12 @@ library(gridExtra)
 # 6. Creating Night & Day Variables 
 # 7. Time Series Plot, Details Differences in MOATS 01-13
 
- 
+
+# A. Introduction to the 2019 Summer Krill Experiement
+
+Adult krill
+
+![alt text](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic2_MOATS_systemdiagram.png)
 
 
 # 1. Setting the Working Directory
