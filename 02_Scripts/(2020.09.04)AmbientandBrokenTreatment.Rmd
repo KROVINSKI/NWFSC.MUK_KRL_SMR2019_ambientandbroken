@@ -31,8 +31,14 @@ library(gridExtra)
 # A. Introduction to the 2019 Summer Krill Experiment
 #### A.1 Introduction & Aquarium
 #### A.1.a Aquarium Diagram
+#### A.2 Collection
+#### A.2.b Sorting 
 
 # B. Explanation of MOATs and Treatment Determination
+#### B.1 Treatment Determination & Survival
+
+
+
 # C. Explanation of Importing Data from MOATs
 # 1. Setting the Working Directory
 # 2. Calling & Reading in " dml "
@@ -66,7 +72,6 @@ MOATs 10- 80 | MOATs 11- 80 | MOATs 12- 80 | MOATs 13- 80 |
 
 ![Graph 2: Replicate MOATS Lab Setup](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic1a_MOATS_systemdiagram.png)
 
-
 #### A.2.c Initial Density:
 Krill were held under acclimation conditions for 11-12 days and treatment conditions for 35-37 days. They were housed in 44L aquaria inside each replicate experimental treatment at an initial density of 80-85 krill per replicate (1.8 krill/L; ~ 3 g krill per replicate).
 
@@ -77,7 +82,7 @@ Krill were held under acclimation conditions for 11-12 days and treatment condit
 Krill Treatment determinations were made approximately on 19SEP19 and confirmed on 24SEP19 with the introduction of the ambient treatment. The division shown below was aimed to start the experiment with survival divided equally among MOATS.  
 
 
-![Acclimation Perod Survival Across all MOATS](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/AllMOATsSurvivalfollowingAccliminationPeriod copy.png)
+![Graphic 3: Acclimation Perod Survival Across all MOATS](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/AllMOATsSurvivalfollowingAccliminationPeriod copy.png)
 
 
 
