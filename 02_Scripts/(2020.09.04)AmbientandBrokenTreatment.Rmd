@@ -29,6 +29,9 @@ library(gridExtra)
 ```
 
 # A. Introduction to the 2019 Summer Krill Experiment
+#### A.1 Introduction & Aquarium
+#### A.1.a Aquarium Diagram
+
 # B. Explanation of MOATs and Treatment Determination
 # C. Explanation of Importing Data from MOATs
 # 1. Setting the Working Directory
@@ -42,24 +45,30 @@ library(gridExtra)
 
 # A. Introduction to the 2019 Summer Krill Experiment
 
-A.1 Introduction & Aquarium:
-Adult krill, Euphausia pacifica, were introduced to the Mobile Ocean Acidification Treatment System (MOATS) on 09SEP19-11SEP19. Krill were collected the evenings of September 9th and 10th. The system was supplied with flowing seawater from Puget Sound filtered to 1 µm, UV sterilized, and maintained at 12°C. Prior to flow into each replicate, seawater was degassed. Each replicate then added carbon dioxide, oxygen, and nitrogen under real-time, data-driven feedback control system using LabView Software (version needed) with Honeywell Durafet III pH and Vernier optical dissolved oxygen probes and Omega thermistors. Flow through the aquaria that housed krill was controlled with a solenoid valve, and during periods of flow was approximately 53 L/hr.
+#### A.1 Introduction & Aquarium:
+Adult krill, Euphausia pacifica, were introduced to the Mobile Ocean Acidification Treatment System (MOATS) on 09SEP19-11SEP19. Krill were collected the evenings of September 9th and 10th. The system was supplied with flowing seawater from Puget Sound filtered to 1 µm, UV sterilized, and maintained at 12°C. Seawater was degassed upstream of the individual MOATs. Carbon dioxide, oxygen, and nitrogen added to each MOATs under real-time feedback control system using LabView Software (version needed) with Honeywell Durafet III pH and Vernier optical dissolved oxygen probes and Omega thermistors. Semi-diurnal flow control governed with solenoid valve to the upper, animal acrylic box.  Flow rate 53 L/hr.
 
-A.1.a Aquarium Diagram:
-Simple graphic of the MOATS assembly is shown above. The krill lived in the inner acrylic 44L box at the top of the assembly. The lower box represents the location of the probes, governing the temperature and water chemistry of each replicate. 
+#### A.1.a Aquarium Diagram:
+Simple graphic of the MOATS assembly is shown above. The krill lived in the inner acrylic 44L box at the top of the assembly. The acrylic box's temperature was controlled with "jacket" water insulating the animal, acrylic box. The jacket water flow was constant from the lower "system-control" box. The lower box represents the location of the probes, governing the temperature and water chemistry of each replicate. 
 ![Graphic 1: Simple MOATS System Diagram](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic1_MOATS_systemdiagram.png)
-A.2 Collection:
+#### A.2 Collection:
 The September 9th, 2019 collection occurred at evening low tide, slack water, occurred at 2046. 
 Nautical Twilight concluded at 2022, with Civil Twilight concluding at 1955. Sunset happened at 1932. Boat was launched at 1940. Boat on-station IVO 47.982569, -122.307623 at approximately 2030.  50meters of cable scope was deployed at a speed of 1.5-2knots to achieve a towing depth of approximately 25meters. Five of ten tows produced suitable sized krill ( x>.0250, x<.0650).
 
 The September 10th, 2019 collection occurred at evening low tide, slack water, occurred at 2121. Nautical Twilight concluded at 2021, with Civil Twilight concluding at 1954. Sunset happened at 1931. Boat was launched at 2015. Boat on-station IVO 47.982569, -122.307623 at approximately 2100. Tows were similar in scope and duration to September 9th , 2019.
 
+#### A.2.b Sorting:
 09SEP19 25-krill were stocked between moats. 10SEP19 60 to 65-krill were stocked between MOATs to bring the project start totals to the MOATs as follows:
 MOATs 01- 85 | MOATs 02- 85 | MOATs 03- 80 | MOATs 04- 80 | 		
 MOATs 05- 80 | MOATs 06- 80 | MOATs 07- 80 | MOATs 08- 80 | 		
 MOATs 10- 80 | MOATs 11- 80 | MOATs 12- 80 | MOATs 13- 80 |
 
+#### A.2.c Initial Density:
 Krill were held under acclimation conditions for 11-12 days and treatment conditions for 35-37 days. They were housed in 44L aquaria inside each replicate experimental treatment at an initial density of 80-85 krill per replicate (1.8 krill/L; ~ 3 g krill per replicate).
+
+
+
+
 
 
 Krill Treatment determinations were made approximately on 19SEP19 and confirmed on 24SEP19 with the introduction of the ambient treatment. The division shown below was aimed to start the experiment with survival divided equally among MOATS.  
