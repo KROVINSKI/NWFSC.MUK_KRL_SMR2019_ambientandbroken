@@ -44,7 +44,10 @@ library(gridExtra)
 
 Adult krill, Euphausia pacifica, were introduced to the Mobile Ocean Acidification Treatment System (MOATS) on 09SEP19-11SEP19. Krill were collected the evenings of September 9th and 10th.
 
-Simple grpahic of the MOATS assembly is shown above. The krill lived in an acrylic 44L box at the top of the assemby. The system 
+Simple graphic of the MOATS assembly is shown above. The krill lived in an acrylic 44L box at the top of the assembly. 
+
+![Graphic 1: Simple MOATS System Diagram](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic1_MOATS_systemdiagram.png)
+
 
 The September 9th, 2019 collection occurred at evening low tide, slack water, occurred at 2046. 
 Nautical Twilight concluded at 2022, with Civil Twilight concluding at 1955. Sunset happened at 1932. Boat was launched at 1940. Boat on-station IVO 47.982569, -122.307623 at approximately 2030.  50meters of cable scope was deployed at a speed of 1.5-2knots to achieve a towing depth of approximately 25meters. Five of ten tows produced suitable sized krill ( x>.0250, x<.0650).
