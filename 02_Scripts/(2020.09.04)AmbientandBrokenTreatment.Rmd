@@ -38,7 +38,7 @@ library(gridExtra)
 # 6. Creating Night & Day Variables 
 # 7. Time Series Plot, Details Differences in MOATS 01-13
 
-
+ 
 
 
 # 1. Setting the Working Directory
