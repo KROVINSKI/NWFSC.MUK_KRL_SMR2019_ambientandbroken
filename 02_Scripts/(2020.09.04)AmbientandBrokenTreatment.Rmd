@@ -42,13 +42,13 @@ library(gridExtra)
 
 # A. Introduction to the 2019 Summer Krill Experiment
 
+A.1 Introduction & Aquarium:
 Adult krill, Euphausia pacifica, were introduced to the Mobile Ocean Acidification Treatment System (MOATS) on 09SEP19-11SEP19. Krill were collected the evenings of September 9th and 10th. The system was supplied with flowing seawater from Puget Sound filtered to 1 µm, UV sterilized, and maintained at 12°C. Prior to flow into each replicate, seawater was degassed. Each replicate then added carbon dioxide, oxygen, and nitrogen under real-time, data-driven feedback control system using LabView Software (version needed) with Honeywell Durafet III pH and Vernier optical dissolved oxygen probes and Omega thermistors. Flow through the aquaria that housed krill was controlled with a solenoid valve, and during periods of flow was approximately 53 L/hr.
 
-Simple graphic of the MOATS assembly is shown above. The krill lived in the inner acrylic 44L box at the top of the assembly. 
-
+A.1.a Aquarium Diagram:
+Simple graphic of the MOATS assembly is shown above. The krill lived in the inner acrylic 44L box at the top of the assembly. The lower box represents the location of the probes, governing the temperature and water chemistry of each replicate. 
 ![Graphic 1: Simple MOATS System Diagram](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic1_MOATS_systemdiagram.png)
-
-
+A.2 Collection:
 The September 9th, 2019 collection occurred at evening low tide, slack water, occurred at 2046. 
 Nautical Twilight concluded at 2022, with Civil Twilight concluding at 1955. Sunset happened at 1932. Boat was launched at 1940. Boat on-station IVO 47.982569, -122.307623 at approximately 2030.  50meters of cable scope was deployed at a speed of 1.5-2knots to achieve a towing depth of approximately 25meters. Five of ten tows produced suitable sized krill ( x>.0250, x<.0650).
 
