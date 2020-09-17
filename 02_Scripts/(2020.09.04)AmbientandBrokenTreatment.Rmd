@@ -28,11 +28,8 @@ library(miniUI)
 library(gridExtra)
 ```
 
-# Table of Contents
-## Outline Current 2020.09.04
-
-# A. Introduction to the 2019 Summer Krill Experiement
-# B. Explanation of MOATs and Treatment Determinination
+# A. Introduction to the 2019 Summer Krill Experiment
+# B. Explanation of MOATs and Treatment Determination
 # C. Explanation of Importing Data from MOATs
 # 1. Setting the Working Directory
 # 2. Calling & Reading in " dml "
@@ -43,9 +40,35 @@ library(gridExtra)
 # 7. Time Series Plot, Details Differences in MOATS 01-13
 
 
-# A. Introduction to the 2019 Summer Krill Experiement
+# A. Introduction to the 2019 Summer Krill Experiment
 
-Adult krill
+Adult krill, Euphausia pacifica, were introduced to the Mobile Ocean Acidification Treatment System (MOATS) on 09SEP19-11SEP19. Krill were collected the evenings of September 9th and 10th.
+
+Simple grpahic of the MOATS assembly is shown above. The krill lived in an acrylic 44L box at the top of the assemby. The system 
+
+The September 9th, 2019 collection occurred at evening low tide, slack water, occurred at 2046. 
+Nautical Twilight concluded at 2022, with Civil Twilight concluding at 1955. Sunset happened at 1932. Boat was launched at 1940. Boat on-station IVO 47.982569, -122.307623 at approximately 2030.  50meters of cable scope was deployed at a speed of 1.5-2knots to achieve a towing depth of approximately 25meters. Five of ten tows produced suitable sized krill ( x>.0250, x<.0650).
+
+The September 10th, 2019 collection occurred at evening low tide, slack water, occurred at 2121. Nautical Twilight concluded at 2021, with Civil Twilight concluding at 1954. Sunset happened at 1931. Boat was launched at 2015. Boat on-station IVO 47.982569, -122.307623 at approximately 2100. Tows were similar in scope and duration to September 9th , 2019.
+
+09SEP19 25-krill were stocked between moats. 10SEP19 60 to 65-krill were stocked between MOATs to bring the project start totals to the MOATs as follows:
+MOATs 01- 85 | MOATs 02- 85 | MOATs 03- 80 | MOATs 04- 80 | 		
+MOATs 05- 80 | MOATs 06- 80 | MOATs 07- 80 | MOATs 08- 80 | 		
+MOATs 10- 80 | MOATs 11- 80 | MOATs 12- 80 | MOATs 13- 80 |
+
+
+
+
+Krill were added to the MOATs when communication alarms were tested on all MOATs and MOATs 09 provided temperature, pH, and dissolved oxygen alarms.
+
+Krill Treatment determinations were made approximately on 19SEP19 and confirmed on 24SEP19 with the introduction of the ambient treatment. The division shown below was aimed to start the experiment with survival divided equally among MOATS.  
+
+Determinations on 19SEP19 
+
+“All Change” Conditions Treatment: 02, 05, 08, 13
+“High Temperature” Conditions Treatment: 01, 04, 06, 11
+“Current” Conditions Treatment: 03, 07, 10, 12
+
 
 ![alt text](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic2_MOATS_systemdiagram.png)
 
