@@ -158,10 +158,17 @@ Three treatments of this studies are identified as
 ## 5.1 Identifying treatments by moats 
 ## establishing treatments
 dml$treatment <- ""
-dml$treatment[dml$moats == "M07" | dml$moats== "M10" | dml$moats== "M12"] <- "current"
-dml$treatment[dml$moats == "M01"| dml$moats== "M06"] <- "hightemperature"
-dml$treatment[dml$moats == "M02"| dml$moats== "M08" | dml$moats== "M13"] <- "allchange"
-dml$treatment[dml$moats == "M03"| dml$moats == "M04" | dml$moats == "M09" | dml$moats == "M05" | dml$moats== "M11"] <- "broken_and_ambientbroken"
+dml$treatment[dml$moats == "M03" | dml$moats == "M07" | dml$moats== "M10" | dml$moats== "M12"] <- "current"
+dml$treatment[dml$moats == "M01"| dml$moats== "M04"| dml$moats== "M06"| dml$moats== "M11"] <- "hightemperature"
+dml$treatment[dml$moats == "M02"| dml$moats== "M05" | dml$moats== "M08" | dml$moats== "M13"] <- "allchange"
+dml$treatment[dml$moats == "M09"] <- "broken"
+
+dml$final_treatment <- ""
+dml$final_treatment[dml$moats == "M07" | dml$moats== "M10" | dml$moats== "M12"] <- "current"
+dml$final_treatment[dml$moats == "M01"| dml$moats== "M06"] <- "hightemperature"
+dml$final_treatment[dml$moats == "M02"| dml$moats== "M08" | dml$moats== "M13"] <- "allchange"
+dml$final_treatment[dml$moats == "M04" |dml$moats == "M05"]  <- "ambient"
+dml$final_treatment[dml$moats == "M03"| dml$moats == "M09" | dml$moats== "M11"] <- "broken"
 #verify that this new column has been created
 names(dml)
 #results should include:
