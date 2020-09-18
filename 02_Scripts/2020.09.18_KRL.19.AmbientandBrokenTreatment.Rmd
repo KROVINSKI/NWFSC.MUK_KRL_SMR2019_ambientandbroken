@@ -139,8 +139,6 @@ Shiny app [P.McElpany MOATS App] https://github.com/pmcelhany/moatsGraphs
 
 ![Graphic 5: Treatment Determination](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic8a_MOATS_dataflow.png)
 
-
-
 ### 1.2 Subsampling
 
 All observations (per the 13 MOATS logs)
@@ -164,7 +162,12 @@ To examine the Day to Night ramp (D2Nramp) researcher used n17 subsampling group
 ## 2. Calling & Reading in " dml " 
 #*********************************
 
-# Super Speedy subsampled data
+# Super Speedy subsampled dat
+
+getwd()
+setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/01_Rawdata")
+getwd()
+
 dml <- read.csv(file = "M01thruM13moatslog_n17.csv", stringsAsFactors = FALSE)
 dim(dml)
 
