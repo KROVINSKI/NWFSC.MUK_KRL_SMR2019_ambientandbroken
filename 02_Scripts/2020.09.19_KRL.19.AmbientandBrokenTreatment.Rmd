@@ -397,19 +397,116 @@ H2Ochemdf <- dml %>% filter(period != "other")
 
 # 7. Timeseries Plots per MOATs
 
-The following plp
+The following plots display timeseries plots for each MOATS
+
+7.1 MOATs 01 Aquarium Temperature Timeseries
+
+```{r MOATS01plot7.1 Aquarium Temperature Timeseries, }
+
+MOATS01plot7.1 <-ggplot(subset(dml[dml$moats == "M01", ])) + 
+  aes(x=dateTime, y=aTemperature) + 
+  geom_point(aes(colour=moats, point=)) +
+  ggtitle("MOATs 01 Aquarium Temperature Timeseries")
+MOATS01plot7.1
+
+```
+
+7.2 MOATs 02 Aquarium Temperature Timeseries
+
+```{r MOATS01plot7.2 Aquarium Temperature Timeseries, }
+
+MOATS01plot7.2 <-ggplot(subset(dml[dml$moats == "M02", ])) + 
+  aes(x=dateTime, y=aTemperature) + 
+  geom_point(aes(colour=moats, point=)) +
+  ggtitle("MOATs 02 Aquarium Temperature Timeseries")
+MOATS01plot7.2
+
+```
+
+7.3 MOATs 03 Aquarium Temperature Timeseries
+
+```{r MOATS01plot7.3 Aquarium Temperature Timeseries, }
+
+MOATS01plot7.3 <-ggplot(subset(dml[dml$moats == "M03", ])) + 
+  aes(x=dateTime, y=aTemperature) + 
+  geom_point(aes(colour=moats, point=)) +
+  ggtitle("MOATs 03 Aquarium Temperature Timeseries")
+MOATS01plot7.3
+
+```
+
+7.4 MOATs 04 Aquarium Temperature Timeseries
+
+```{r MOATS01plot7.4 Aquarium Temperature Timeseries, }
+
+MOATS01plot7.4 <-ggplot(subset(dml[dml$moats == "M04", ])) + 
+  aes(x=dateTime, y=aTemperature) + 
+  geom_point(aes(colour=moats, point=)) +
+  ggtitle("MOATs 04 Aquarium Temperature Timeseries")
+MOATS01plot7.4
+
+```
+
+```{r 7.4a MOATS 04 filtered for Negative Temperatures}
+
+M4dml <- dml %>% filter(!moats %in% c("M01", "M02", "M03", "M6")) %>%
+  filter(aTemperature>= 1 & aTemperature<=30) %>%
+  filter(period != "other")
+
+
+MOATS01plot7.4a <-ggplot(subset(M4dml[M4dml$moats == "M04", ])) + 
+  aes(x=dateTime, y=aTemperature) + 
+  geom_point(aes(colour=moats, point=)) +
+  ggtitle("MOATs 04 Aquarium Temperature Timeseries, Negative Temperatures Filter")
+MOATS01plot7.4a
+
+
+```
+
+7.5 MOATs 05 Aquarium Temperature Timeseries
 
 ```{r}
-#Quick check to see if periods were created
-
-period.intervals <- ggplot(dml, aes(x=dateTime, y=aTemperature)) +
-  geom_point(aes(colour=period, point=))   +
-  ggtitle("aTemperature Time Series Plots to Invesitgate Different Period Intervals") +
-  ylim (5.0, 15.00)
-
-period.intervals
+MOATS01plot7.5a <-ggplot(subset(dml[dml$moats == "M05", ])) + 
+  aes(x=dateTime, y=aTemperature) +  
+  geom_point(aes(colour=moats, point=)) +
+  ggtitle("MOATs 05 Aquarium Temperature Timeseries")
+MOATS01plot7.5a
 ```
+
+
+
+```{r 7.5 MOATS 05 filtered for Negative Temperatures}
+# 
+# M4dml <- dml %>% filter(!moats %in% c("M01", "M02", "M03", "M6")) %>%
+#   filter(aTemperature>= 1 & aTemperature<=30) %>%
+#   filter(period != "other")
+
+
+MOATS01plot7.5 <-ggplot(subset(M4dml[M4dml$moats == "M05", ])) + 
+  aes(x=dateTime, y=aTemperature) + 
+  geom_point(aes(colour=moats, point=)) +
+  ggtitle("MOATs 05 Aquarium Temperature Timeseries, Filtered to Remove Negative Temperatures")
+MOATS01plot7.5
+
+
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
