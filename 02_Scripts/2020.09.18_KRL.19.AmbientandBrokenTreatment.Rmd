@@ -1,8 +1,7 @@
 ---
-title: "R Notebook Explanation File for MOATs designated broken or incorporated in the Ambient Treatment"
-output: html_notebook
-    toc: true
-    toc_depth: 2 
+title: "READme file for MOATs designated broken or incorporated in the Ambient Treatment"
+output: html_document
+
 ---
 
 Section 1: Libraries
@@ -29,18 +28,11 @@ library(miniUI)
 library(gridExtra)
 ```
 
-# A. Introduction to the 2019 Summer Krill Experiment
-#### A.1 Introduction & Aquarium
-#### A.1.a Aquarium Diagram
-#### A.2 Collection
-#### A.2.b Sorting 
-
+# A. Introduction to the 2019 Summer Krill Experimen
 # B. Explanation of MOATs and Treatment Determination
-#### B.1 Treatment Determination & Survival
-
-
-
 # C. Explanation of Importing Data from MOATs
+
+
 # 1. Setting the Working Directory
 # 2. Calling & Reading in " dml "
 # 3. Reformatting variables/vectors (Factors)
