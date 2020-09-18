@@ -5,7 +5,7 @@ output: html_document
 ---
 
 Section 1: Libraries
-```{r}
+```{r Libraries, }
 #*********************************
 ##Libraries
 #********************************* 
@@ -84,15 +84,20 @@ Determinations on 19SEP19
 “Current” Conditions Treatment: M03, M07, M10, M12
 
 
-![alt text](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic2_MOATS_systemdiagram.png)
+Further explanations will be shown in time series of this documnet. 
+
+
+![Graphic 4: Treatment Determination](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic2_MOATS_systemdiagram.png)
 
 
 # 1. Setting the Working Directory
 1.0
 Look for all files inside the Water Chemistry folder of the "06. MOATs replication verification" folder
+[OA Drive Krill 2019 MOAT01-13n17 File]https://drive.google.com/file/d/1abruA-oMCd5XdNcph2yQzDr2Hyb-_pHD/view?usp=sharing
 
 
-```{r, setup, include=FALSE }
+
+```{r 1.) Set working directory, setup, include=FALSE }
 #*********************************
 ## 1.) Set working directory
 #*********************************
@@ -125,19 +130,27 @@ Every 17th observations was selected, the observations were 24second apart.
 
 1 CSVs per moats: M01, M02, M03, M04, M05, M06, M07, M08, M09, M10, M11, M12, M13. Files are also available on the OA Google drive. [OA Drive for MOATS data](https://drive.google.com/open?id=13a2hk1a9I9gRIgf2Xyl1dSYDf5vnyYvs)
 
+
+#### 1.1.5 Data Flow Diagram for Coalescing Krill Aquarium Data
+
+13 set of logs from the replicates was recorded with (lab view software version needed)
+13 Logic Volume Management files recorded observations across all thermisters and probes every six seconds. 
+Shiny app [P.McElpany MOATS App] https://github.com/pmcelhany/moatsGraphs
+
+![Graphic 5: Treatment Determination](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic8a_MOATS_dataflow.png)
+
+
+
 ### 1.2 Subsampling
-
-For speed and ease of computations the dataframe was extermely subsampled. 
-Instead of the standard "n17" used in the aquarium temperature investigation, this document subsampled at "n333".
-
-#### 1.2.1 Subsampling explained by observations
 
 All observations (per the 13 MOATS logs)
 [1] 1137880   7 (6 seconds)
 Number of observations after subsampling every 17th response/observation
 [1] 66934     7 (24 seconds)
 Number of observations after the super-subsampling, every 333rd observation
-[1] 3417      7 (~30minutes) ***this won't detail the ramp
+[1] 3417      7 (~30minutes) 
+
+The ramp period is not best displayed 
 
 
 #### 1.2.2 Subsampling Determination
