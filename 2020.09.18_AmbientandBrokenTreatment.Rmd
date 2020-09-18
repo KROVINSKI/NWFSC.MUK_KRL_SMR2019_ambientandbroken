@@ -1,6 +1,9 @@
 ---
-title: "R Notebook Explanation File for MOATs designated broken or incorporated in the Ambient Treatment"
-output: html_notebook
+title: R Notebook Explanation File for MOATs designated broken or incorporated in
+  the Ambient Treatment
+output:
+  html_document:
+    df_print: paged
 ---
 
 Section 1: Libraries
