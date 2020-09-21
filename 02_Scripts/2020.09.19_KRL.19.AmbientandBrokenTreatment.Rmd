@@ -580,35 +580,35 @@ MOATS01plot7.11
 26SEP19 MOATs 11 experienced significant low pH spikes and was dropped from the study. MORTs were still removed and animals were still fed so that MOATs 11 population could be used for process determination studies. 
 
 ```{r trying to make simple water chemistry plot}
-knitr::opts_chunk$set(echo = TRUE)
-
-knitr::opts_knit$set(root.dir =
-                       "/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/01_Rawdata")
-
-getwd()
-setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/01_Rawdata")
-getwd()
-
-# setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_MOATs_SMR2019/WaterChemistryData/01a. WaterChemistry Data/WaterChemistryDataframe.csv" )
-
-
-WaterChem <- read.csv(file = "WaterChemistryDataframe.csv", stringsAsFactors = FALSE)
-
-
-
-WaterChem$moats <- factor(WaterChem$moats)
-# Checking the names of the different levels
-levels(WaterChem$moats)
-
-
-
-MOATS01plot7.11a <-ggplot(subset(WaterChem[dml$moats == "M11", ])) +
-  aes(x=dateTime, y=pH) +
-  geom_point(aes(colour=period, point=)) +
-  ggtitle("MOATs 11 Aquarium Temperature pH Timeseries")
-MOATS01plot7.11a
-
-
+# knitr::opts_chunk$set(echo = TRUE)
+# 
+# knitr::opts_knit$set(root.dir =
+#                        "/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/01_Rawdata")
+# 
+# getwd()
+# setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/01_Rawdata")
+# getwd()
+# 
+# # setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_MOATs_SMR2019/WaterChemistryData/01a. WaterChemistry Data/WaterChemistryDataframe.csv" )
+# 
+# 
+# WaterChem <- read.csv(file = "WaterChemistryDataframe.csv", stringsAsFactors = FALSE)
+# 
+# 
+# 
+# WaterChem$moats <- factor(WaterChem$moats)
+# # Checking the names of the different levels
+# levels(WaterChem$moats)
+# 
+# 
+# 
+# MOATS01plot7.11a <-ggplot(subset(WaterChem[dml$moats == "M11", ])) +
+#   aes(x=dateTime, y=pH) +
+#   geom_point(aes(colour=period, point=)) +
+#   ggtitle("MOATs 11 Aquarium Temperature pH Timeseries")
+# MOATS01plot7.11a
+# 
+# 
 
 ```
 
