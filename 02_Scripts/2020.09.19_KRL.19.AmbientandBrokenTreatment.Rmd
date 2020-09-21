@@ -390,7 +390,7 @@ The acclimation and the time after animals were removed from the system was desi
 # Removing "other" period from day and night 
 # not including acclimation period in this investigation
 
-H2Ochemdf <- dml %>% filter(period != "other")
+dml <- dml %>% filter(period != "other")
 ```
 
 
@@ -405,7 +405,7 @@ The following plots display timeseries plots for each MOATS
 
 MOATS01plot7.1 <-ggplot(subset(dml[dml$moats == "M01", ])) + 
   aes(x=dateTime, y=aTemperature) + 
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 01 Aquarium Temperature Timeseries")
 MOATS01plot7.1
 
@@ -417,7 +417,7 @@ MOATS01plot7.1
 
 MOATS01plot7.2 <-ggplot(subset(dml[dml$moats == "M02", ])) + 
   aes(x=dateTime, y=aTemperature) + 
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 02 Aquarium Temperature Timeseries")
 MOATS01plot7.2
 
@@ -429,7 +429,7 @@ MOATS01plot7.2
 
 MOATS01plot7.3 <-ggplot(subset(dml[dml$moats == "M03", ])) + 
   aes(x=dateTime, y=aTemperature) + 
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 03 Aquarium Temperature Timeseries")
 MOATS01plot7.3
 
@@ -443,7 +443,7 @@ MOATS01plot7.3
 
 MOATS01plot7.4 <-ggplot(subset(dml[dml$moats == "M04", ])) + 
   aes(x=dateTime, y=aTemperature) + 
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 04 Aquarium Temperature Timeseries")
 MOATS01plot7.4
 
@@ -458,7 +458,7 @@ M4dml <- dml %>% filter(!moats %in% c("M01", "M02", "M03", "M6")) %>%
 
 MOATS01plot7.4a <-ggplot(subset(M4dml[M4dml$moats == "M04", ])) + 
   aes(x=dateTime, y=aTemperature) + 
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 04 Aquarium Temperature Timeseries, Negative Temperatures Filter")
 MOATS01plot7.4a
 
@@ -471,7 +471,7 @@ MOATS01plot7.4a
 ```{r}
 MOATS01plot7.5a <-ggplot(subset(dml[dml$moats == "M05", ])) + 
   aes(x=dateTime, y=aTemperature) +  
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 05 Aquarium Temperature Timeseries")
 MOATS01plot7.5a
 ```
@@ -487,7 +487,7 @@ MOATS01plot7.5a
 
 MOATS01plot7.5 <-ggplot(subset(M4dml[M4dml$moats == "M05", ])) + 
   aes(x=dateTime, y=aTemperature) + 
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 05 Aquarium Temperature Timeseries, Filtered to Remove Negative Temperatures")
 MOATS01plot7.5
 
@@ -504,7 +504,7 @@ Note that MOATS 04 & MOATS 05 never came under treatment conditions. Temperature
 ```{r 7.6 MOATS 06 }
 MOATS01plot7.6 <-ggplot(subset(dml[dml$moats == "M06", ])) + 
   aes(x=dateTime, y=aTemperature) +  
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 06 Aquarium Temperature Timeseries")
 MOATS01plot7.6
 ```
@@ -515,7 +515,7 @@ MOATS01plot7.6
 ```{r 7.7 MOATS 07 }
 MOATS01plot7.7 <-ggplot(subset(dml[dml$moats == "M07", ])) + 
   aes(x=dateTime, y=aTemperature) +  
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 07 Aquarium Temperature Timeseries")
 MOATS01plot7.7
 ```
@@ -526,7 +526,7 @@ MOATS01plot7.7
 ```{r 7.8 MOATS 08 }
 MOATS01plot7.8 <-ggplot(subset(dml[dml$moats == "M08", ])) + 
   aes(x=dateTime, y=aTemperature) +  
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 08 Aquarium Temperature Timeseries")
 MOATS01plot7.8
 ```
@@ -537,7 +537,7 @@ MOATS01plot7.8
 ```{r 7.9 MOATS 09 }
 MOATS01plot7.9 <-ggplot(subset(dml[dml$moats == "M09", ])) + 
   aes(x=dateTime, y=aTemperature) +  
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 09 Aquarium Temperature Timeseries")
 MOATS01plot7.9
 ```
@@ -549,7 +549,7 @@ MOATS01plot7.9
 ```{r 7.10 MOATS 10}
 MOATS01plot7.10 <-ggplot(subset(dml[dml$moats == "M10", ])) + 
   aes(x=dateTime, y=aTemperature) +  
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 10 Aquarium Temperature Timeseries")
 MOATS01plot7.10
 ```
@@ -560,44 +560,54 @@ MOATS01plot7.10
 ```{r 7.11 MOATS 11}
 MOATS01plot7.11 <-ggplot(subset(dml[dml$moats == "M11", ])) + 
   aes(x=dateTime, y=aTemperature) +  
-  geom_point(aes(colour=moats, point=)) +
+  geom_point(aes(colour=period, point=)) +
   ggtitle("MOATs 11 Aquarium Temperature Timeseries")
 MOATS01plot7.11
 ```
 26SEP19 MOATs 11 experienced significant low pH spikes and was dropped from the study. MORTs were still removed and animals were still fed so that MOATs 11 population could be used for process determination studies. 
 
 ```{r trying to make simple water chemistry plot}
-# knitr::opts_chunk$set(echo = TRUE)
-# 
-# knitr::opts_knit$set(root.dir =
-#                        "/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/01_Rawdata")
-# 
-# getwd()
-# setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/01_Rawdata")
-# getwd()
-# 
-# # setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_MOATs_SMR2019/WaterChemistryData/01a. WaterChemistry Data/WaterChemistryDataframe.csv" )
-# 
-# 
-# WaterChem <- read.csv(file = "WaterChemistryDataframe.csv", stringsAsFactors = FALSE)
-# 
-# 
-# 
-# WaterChem$moats <- factor(WaterChem$moats)
-# # Checking the names of the different levels
-# levels(WaterChem$moats)
-# 
-# 
-# 
-# MOATS01plot7.11a <-ggplot(subset(WaterChem[dml$moats == "M11", ])) + 
-#   aes(x=dateTime, y=pH) +  
-#   geom_point(aes(colour=moats, point=)) +
-#   ggtitle("MOATs 11 Aquarium Temperature pH Timeseries")
-# MOATS01plot7.11a
+knitr::opts_chunk$set(echo = TRUE)
+
+knitr::opts_knit$set(root.dir =
+                       "/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/01_Rawdata")
+
+getwd()
+setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/01_Rawdata")
+getwd()
+
+# setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_MOATs_SMR2019/WaterChemistryData/01a. WaterChemistry Data/WaterChemistryDataframe.csv" )
+
+
+WaterChem <- read.csv(file = "WaterChemistryDataframe.csv", stringsAsFactors = FALSE)
+
+
+
+WaterChem$moats <- factor(WaterChem$moats)
+# Checking the names of the different levels
+levels(WaterChem$moats)
+
+
+
+MOATS01plot7.11a <-ggplot(subset(WaterChem[dml$moats == "M11", ])) +
+  aes(x=dateTime, y=pH) +
+  geom_point(aes(colour=period, point=)) +
+  ggtitle("MOATs 11 Aquarium Temperature pH Timeseries")
+MOATS01plot7.11a
 
 
 
 ```
+
+
+![Graphic 6: pH spikes in MOATs 11](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/26SEP19.pH.Spike.in.MOATs.11_impact_on_High_Temperature_Treatments.png)
+
+
+![Graphic 6: Focus on the 3 pH spikes in MOATs 11](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/26SEP19.pH.Spike.in.MOATs.11.Three.Spikes.png)
+
+
+
+
 
 
 
@@ -644,7 +654,7 @@ The following plots in Chapter 8 detail the aquarium's temperature history by tr
 
 
 ```{r 8.1 All Change Treatment}
-ggplot(subset(Cdml[Cdml$treatment == "allchange", ])) + 
+ggplot(subset(dml[dml$treatment == "allchange", ])) + 
   aes(x=dateTime, y=aTemperature) + 
   geom_point(aes(colour=moats, point=)) +
   ggtitle("All Change Treatment Timeseries")
