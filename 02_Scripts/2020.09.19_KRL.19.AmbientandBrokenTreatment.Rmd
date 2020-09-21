@@ -435,6 +435,9 @@ MOATS01plot7.3
 
 ```
 
+The weekend of 19-20OCT saw a drop in water volume of the bubble boxes, troubleshot to clogged filtered. This fault was a cascade of problems for DO, pH, and temperature across all replicates but acutely in MOATS 03. 
+
+MOATs 03 was dropped from the study on 24OCT19 primarily a high temperature spike, pH did drop below treatment. This impacted the respirometry samples for Day 1, 28OCT19. MOATs 12 had two rounds of respirometry that day. 
 
 
 7.4 MOATs 04 Aquarium Temperature Timeseries
@@ -496,6 +499,18 @@ MOATS01plot7.5
 
 
 Note that MOATS 04 & MOATS 05 never came under treatment conditions. Temperature control was never achieved. Faulty termisters suspected root cause in both MOATs 04 and 05. MOATs 04 shows that the incoming seawater and room temperature of the MOATS Lab operated at a usual 12.5C day time temperature with a 10.5C nighttime temperature.  
+This loss of 2 MOATS replicates "changed" treatment assignments
+
+Status of Treatment Assignments on 19SEP19 
+
+![Graphic 6: Treatment Determination](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic3_MOATS_systemdiagram.png)
+
+Status of Treatment Assignments by Weeks End 24SEP19 
+
+![Graphic 6: Treatment Determination](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic4_MOATS_systemdiagram.png)
+
+
+
 
 
 
@@ -600,15 +615,10 @@ MOATS01plot7.11a
 ```
 
 
-![Graphic 6: pH spikes in MOATs 11](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/26SEP19.pH.Spike.in.MOATs.11_impact_on_High_Temperature_Treatments.png)
+![Graphic 7: pH spikes in MOATs 11](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/26SEP19.pH.Spike.in.MOATs.11_impact_on_High_Temperature_Treatments.png)
 
 
-![Graphic 6: Focus on the 3 pH spikes in MOATs 11](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/26SEP19.pH.Spike.in.MOATs.11.Three.Spikes.png)
-
-
-
-
-
+![Graphic 8: Focus on the 3 pH spikes in MOATs 11](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/26SEP19.pH.Spike.in.MOATs.11.Three.Spikes.png)
 
 
 7.12 MOATs 12 Aquarium Temperature Timeseries
@@ -646,6 +656,23 @@ MOATS01plot7.13 <-ggplot(subset(dml[dml$moats == "M13", ])) +
   ggtitle("MOATs 13 Aquarium Temperature Timeseries")
 MOATS01plot7.13
 ```
+
+Changes to MOATS treatment determination over time
+
+Treatment Determination Standing as of 19SEP19
+![Graphic 6: Treatment Determination](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic3_MOATS_systemdiagram.png)
+
+
+Changes on made by 24SEP19
+![Graphic 6: Treatment Determination](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic4_MOATS_systemdiagram.png)
+
+
+Changes from system casualties on 26SEP19
+![Graphic 6: Treatment Determination](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic6a_MOATS_systemdiagram_brokenmoatson26SEP19.png)
+
+
+Changes from system casualties on 24OCT19
+![Graphic 6: Treatment Determination](/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR2019_ambientandbroken/04_Presentations/KRL.SMR.19.graphic6_MOATS_systemdiagram_brokenmoatson24OCT19.png)
 
 
 # 8. Timeseries Plot of Each Treatment
