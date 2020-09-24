@@ -1,6 +1,8 @@
 ---
 title: "READme file for MOATs designated broken or incorporated in the Ambient Treatment"
-output: html_document
+output:
+    html_document:
+    code_folding: hide
 
 ---
 
