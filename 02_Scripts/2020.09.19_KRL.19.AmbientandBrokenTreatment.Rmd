@@ -36,10 +36,8 @@ library(miniUI)
 library(gridExtra)
 ```
 
-# A. Introduction to the 2019 Summer Krill Experimen
+# A. Introduction to the 2019 Summer Krill Experiment
 # B. Explanation of MOATs and Treatment Determination
-# C. Explanation of Importing Data from MOATs
-
 
 # 1. Setting the Working Directory
 # 2. Calling & Reading in " dml "
